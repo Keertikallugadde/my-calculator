@@ -18,6 +18,13 @@ def divide(a, b):
     return a/b
 
 # TODO: Students will add multiply, divide, power, sqrt functions
+def pow(a,b):
+    return a**b
+
+def sqrt(a):
+    if(a<0):
+        raise ValueError("Cannot compute square root of negative number")
+    return a**0.5
 
 if __name__ == "__main__":
     print("🧮 Calculator Module")
